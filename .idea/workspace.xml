@@ -4,7 +4,7 @@
     <list default="true" id="b9e8fe1f-5959-45f3-bf9e-1f2cb88ffc25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejemplo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sr4.py" beforeDir="false" afterPath="$PROJECT_DIR$/sr4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/out.bmp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sr4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out.bmp">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bitmap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-982">
+            <state>
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/Ejemplo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/sr3.py" />
         <option value="$PROJECT_DIR$/Lib.py" />
         <option value="$PROJECT_DIR$/object.py" />
-        <option value="$PROJECT_DIR$/Ejemplo.py" />
         <option value="$PROJECT_DIR$/sr4.py" />
+        <option value="$PROJECT_DIR$/Ejemplo.py" />
       </list>
     </option>
   </component>
@@ -111,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,7 +123,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +188,8 @@
       <updated>1558145053072</updated>
       <workItem from="1558145054628" duration="31403000" />
       <workItem from="1558490750251" duration="7439000" />
-      <workItem from="1558749403898" duration="1152000" />
+      <workItem from="1558749403898" duration="1527000" />
+      <workItem from="1558752000129" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Finished implementing Z-Buffer">
       <created>1558749443256</created>
@@ -197,11 +198,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558749443256</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed translate">
+      <created>1558750611860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558750611860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39994000" />
+    <option name="totallyTimeSpent" value="40997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,12 +224,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,7 +252,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished implementing Z-Buffer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished implementing Z-Buffer" />
+    <MESSAGE value="Fixed translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed translate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,7 +267,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lesson4$Ejemplo.coverage" NAME="Ejemplo Coverage Results" MODIFIED="1558750538549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lesson4$Ejemplo.coverage" NAME="Ejemplo Coverage Results" MODIFIED="1558752548536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sr3.py" />
@@ -287,25 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bitmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-982">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ejemplo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sr4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -315,6 +305,25 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bitmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.bmp">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
