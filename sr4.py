@@ -2,7 +2,7 @@
 # Gráficas por computadora
 # Código obtenido de http://www.roguebasin.com/index.php?title=Bresenham%27s_Line_Algorithm
 import sys
-
+import copy
 from Bitmap import *
 from Lib import *
 
@@ -117,17 +117,18 @@ def glFinish():
     screen.write('out.bmp')
 
 
-def glLoad(name, scale, translate):
+def glLoad(name, scale, translateX, translateY, translateZ):
     global screen, vertexBuffer
     model = Obj(name)
     for face in model.vfaces:
         vcount = len(face)
         for j in range(vcount):
             f1 = face[j][0]
-            v1 = model.vertices[f1 - 1]
-            v1 = [(x * scale) + translate for x in v1]
-            #v1[0] = (v1[0] * scale) + translateX
-            #v1[1] = (v1[1] * scale) + translateY
+            v1 = copy.copy(model.vertices[f1 - 1])
+            # v1 = [(x * scale) + translateX for x in v1]
+            v1[0] = (v1[0] * scale) + translateX
+            v1[1] = (v1[1] * scale) + translateY
+            v1[2] = (v1[2] * scale) + translateZ
             vertexBuffer.append(v1)
     vertexBuffer = iter(vertexBuffer)
 
